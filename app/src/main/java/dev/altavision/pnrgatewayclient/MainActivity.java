@@ -29,15 +29,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 try {
-                    String messageBody = "This is a test SMS";
-                    SmsManager smsManager = SmsManager.getDefault();
-                    String testStr = "test";
 
-                    Intent sentIntent = new Intent(getApplicationContext(), SmsSendActivity.class);
-//
-                    PendingIntent sentPendingIntent = PendingIntent.getActivity(MainActivity.this, 10, sentIntent, PendingIntent.FLAG_MUTABLE);
+                    Intent intent = new Intent(MainActivity.this, SettingsActivity.class);
+                    startActivity(intent);
 
-                    smsManager.sendDataMessage("***REMOVED***", null, (short) 5497, testStr.getBytes(StandardCharsets.UTF_8), sentPendingIntent, sentPendingIntent);
+
 
                 } catch (Exception e) {
                     e.printStackTrace();

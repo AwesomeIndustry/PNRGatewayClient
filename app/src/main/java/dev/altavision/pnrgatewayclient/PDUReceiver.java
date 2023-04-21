@@ -3,14 +3,20 @@ package dev.altavision.pnrgatewayclient;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.telephony.SmsManager;
 import android.telephony.SmsMessage;
 import android.util.Log;
+import android.widget.Toast;
+
+import androidx.preference.PreferenceManager;
 
 public class PDUReceiver extends BroadcastReceiver {
-    public static final String GATEWAY_ADDRESS = "28818773";
-    public static final String IPHONE_NUMBER = "***REMOVED***";
+//    public static final String GATEWAY_ADDRESS = "22223333"; //Google Fi/TMobile MVNO
+//    public static final String IPHONE_NUMBER = "+11234567890";
+
+    private SharedPreferences mPrefs = null;
 
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -22,6 +28,10 @@ public class PDUReceiver extends BroadcastReceiver {
         //      sure most carriers transmit the data SMS, but if (during normal registration) you see the
         //      REG-RESP messages displayed in the Messages app on your iPhone, they might be standard SMSes
         //      and won't get picked up here.
+
+//        if (mPrefs == null) {
+        mPrefs = PreferenceManager.getDefaultSharedPreferences(context);
+//        }
 
         Bundle bundle = intent.getExtras();
         String recMsgString = "";
@@ -56,6 +66,21 @@ public class PDUReceiver extends BroadcastReceiver {
                 Log.d("PDU_RCVR", "\tStatus: "+String.valueOf(recMsg.getStatus()));
                 Log.d("PDU_RCVR", "\tUser data: "+String.valueOf(recMsg.getUserData()));
 
+                if (mPrefs.getString("gateway_address","none").equals("none")) {
+                    Toast.makeText(context, "Error: Please set the gateway address in Settings", Toast.LENGTH_SHORT).show();
+                    continue;
+                }
+
+                if (mPrefs.getString("iphone_number","none").equals("none")) {
+                    Toast.makeText(context, "Error: Please set the iPhone number in Settings", Toast.LENGTH_SHORT).show();
+                    continue;
+                }
+
+
+                if (!recMsg.getOriginatingAddress().equals(mPrefs.getString("gateway_address", "<not set>"))) {
+                    continue;
+                }
+
                 //messageBody will include the REG-RESP text--i.e.
                 //  REG-RESP?v=3;r=72325403;n=+11234567890;s=CA21C50C645469B25F4B65C38A7DCEC56592E038F39489F35C7CD6972D
                 String messageBody = recMsg.getMessageBody();
@@ -67,9 +92,8 @@ public class PDUReceiver extends BroadcastReceiver {
                 SmsManager smsManager = SmsManager.getDefault();
 
                 //Forwards the REG-RESP message back to the iPhone for it to complete registration
-                smsManager.sendTextMessage(IPHONE_NUMBER, null, messageBody, null, null);
+                smsManager.sendTextMessage(mPrefs.getString("iphone_number", "<not set>"), null, messageBody, null, null);
 
-                //smsManager.sendDataMessage("+882360018181818", null, (short) 5497, recMsg.getUserData(), null, null);
                 //In theory it's possible to send a data SMS to the iPhone and have it pick up on that, but I couldn't get that to work
 
 

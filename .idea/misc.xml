@@ -5,6 +5,8 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.335" />
         <entry key="app/src/main/res/layout/activity_sms_send.xml" value="0.10260416666666666" />
+        <entry key="app/src/main/res/layout/settings_activity.xml" value="0.3333333333333333" />
+        <entry key="app/src/main/res/xml/root_preferences.xml" value="0.17135416666666667" />
       </map>
     </option>
   </component>
