@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">PNRGatewayClient</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="gateway_address_explainer"><![CDATA[The Apple phone number with which to send the SMS, in international format. Depends on your Android phone\'s carrier. AT&T phones use 28818773, many T-Mobile MVNOs use 28818773, etc. Find these in the iOS carrier bundle for your carrier (/System/Library/Carrier Bundles/[Your carrier]/carrier.plist and look for PhoneNumberRegistrationGatewayAddress)]]></string>
+    <string name="gateway_address_title">Gateway Address</string>
+    <string name="iphone_number_explainer">Phone number of your iPhone, in international format</string>
+    <string name="iphone_number_title">iPhone Phone Number</string>
+    <string name="messages_header">PNRGateway Settings</string>
+    <string name="reply_title">Default reply action</string>
+    <string name="signature_title">Your signature</string>
+    <string name="sync_header">Sync</string>
+    <string name="sync_title">Sync email periodically</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <style name="Theme.PNRGatewayClient" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor" ns1:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>

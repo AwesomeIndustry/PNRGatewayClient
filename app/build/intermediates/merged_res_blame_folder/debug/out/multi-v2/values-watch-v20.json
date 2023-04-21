@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "dev.altavision.pnrgatewayclient.app-mergeDebugResources-34:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/isaacwheeler/.gradle/caches/transforms-3/a798c2d22f5d3a2c02df916fadf12c43/transformed/appcompat-1.6.0/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

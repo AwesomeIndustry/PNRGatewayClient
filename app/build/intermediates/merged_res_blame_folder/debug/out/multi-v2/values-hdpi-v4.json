@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "dev.altavision.pnrgatewayclient.app-mergeDebugResources-34:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/isaacwheeler/.gradle/caches/transforms-3/a798c2d22f5d3a2c02df916fadf12c43/transformed/appcompat-1.6.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}
