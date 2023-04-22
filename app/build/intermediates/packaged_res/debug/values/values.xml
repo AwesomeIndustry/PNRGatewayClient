@@ -24,7 +24,7 @@
     <string name="gateway_address_title">Gateway Address</string>
     <string name="iphone_number_explainer">Phone number of your iPhone, in international format</string>
     <string name="iphone_number_title">iPhone Phone Number</string>
-    <string name="messages_header">PNRGateway Settings</string>
+    <string name="messages_header">Messages</string>
     <string name="reply_title">Default reply action</string>
     <string name="signature_title">Your signature</string>
     <string name="sync_header">Sync</string>

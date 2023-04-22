@@ -1,86 +1,82 @@
 [
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/layout_activity_sms_send.xml.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/layout/activity_sms_send.xml"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/xml_backup_rules.xml.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/xml/backup_rules.xml"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/xml_root_preferences.xml.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/xml/root_preferences.xml"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/xml_root_preferences.xml.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/xml/root_preferences.xml"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/layout_settings_activity.xml.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/layout/settings_activity.xml"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/layout_settings_activity.xml.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/layout/settings_activity.xml"
     },
     {
         "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/layout_activity_main.xml.flat",
         "source": "dev.altavision.pnrgatewayclient.app-main-38:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/layout_activity_main.xml.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/layout/activity_main.xml"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/layout_activity_sms_send.xml.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/layout/activity_sms_send.xml"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/xml/data_extraction_rules.xml"
-    },
-    {
-        "merged": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-merged_res-36:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/isaacwheeler/.gradle/daemon/7.3.3/dev.altavision.pnrgatewayclient.app-main-38:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "dev.altavision.pnrgatewayclient.app-merged_res-36:/xml_backup_rules.xml.flat",
+        "source": "dev.altavision.pnrgatewayclient.app-main-38:/xml/backup_rules.xml"
     }
 ]

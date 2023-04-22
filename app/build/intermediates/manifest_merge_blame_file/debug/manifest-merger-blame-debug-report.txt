@@ -29,7 +29,7 @@
 18-->[androidx.core:core:1.9.0] /Users/isaacwheeler/.gradle/caches/transforms-3/6572e896cf691f4b13ad10c561cb3105/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
 19
 20    <application
-20-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:9:5-56:19
+20-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:9:5-55:19
 21        android:allowBackup="true"
 21-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:10:9-35
 22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -48,115 +48,112 @@
 29-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:15:9-54
 30        android:supportsRtl="true"
 30-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:16:9-35
-31        android:testOnly="true"
-32        android:theme="@style/Theme.PNRGatewayClient" >
-32-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:17:9-54
-33        <activity
-33-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:19:9-23:57
-34            android:name="dev.altavision.pnrgatewayclient.SettingsActivity"
-34-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:20:13-45
-35            android:exported="false"
-35-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:21:13-37
-36            android:label="@string/title_activity_settings"
-36-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:22:13-60
-37            android:parentActivityName="dev.altavision.pnrgatewayclient.MainActivity" />
-37-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:23:13-55
-38        <activity
-38-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:24:9-26:40
-39            android:name="dev.altavision.pnrgatewayclient.SmsSendActivity"
-39-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:25:13-44
-40            android:exported="false" />
-40-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:26:13-37
-41
-42        <receiver
-42-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:28:9-35:20
-43            android:name="dev.altavision.pnrgatewayclient.SMSReceiver"
-43-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:29:13-40
-44            android:exported="true"
-44-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:30:13-36
-45            android:permission="android.permission.BROADCAST_SMS" >
-45-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:31:13-66
-46            <intent-filter android:priority="1000" >
-46-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:32:13-34:29
-46-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:32:28-51
-47                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
-47-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:33:17-82
-47-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:33:25-79
-48            </intent-filter>
-49        </receiver>
-50        <receiver
-50-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:36:9-45:20
-51            android:name="dev.altavision.pnrgatewayclient.PDUReceiver"
-51-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:37:13-40
-52            android:exported="true" >
-52-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:38:13-36
-53            <intent-filter>
-53-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:39:13-44:29
-54                <action android:name="android.intent.action.DATA_SMS_RECEIVED" />
-54-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:40:17-82
-54-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:40:25-79
-55
-56                <data android:scheme="sms" />
-56-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:42:17-46
-56-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:42:23-43
-57                <data android:port="*" />
-57-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:42:17-46
-57-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:43:23-39
-58            </intent-filter>
-59        </receiver>
-60
-61        <activity
-61-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:47:9-55:20
-62            android:name="dev.altavision.pnrgatewayclient.MainActivity"
-62-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:48:13-41
-63            android:exported="true" >
-63-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:49:13-36
-64            <intent-filter>
-64-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:50:13-54:29
-65                <action android:name="android.intent.action.MAIN" />
-65-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:51:17-69
-65-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:51:25-66
-66
-67                <category android:name="android.intent.category.LAUNCHER" />
-67-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:53:17-77
-67-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:53:27-74
-68            </intent-filter>
-69        </activity>
-70
-71        <provider
-71-->[androidx.emoji2:emoji2:1.2.0] /Users/isaacwheeler/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-72            android:name="androidx.startup.InitializationProvider"
-72-->[androidx.emoji2:emoji2:1.2.0] /Users/isaacwheeler/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-73            android:authorities="dev.altavision.pnrgatewayclient.androidx-startup"
-73-->[androidx.emoji2:emoji2:1.2.0] /Users/isaacwheeler/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-74            android:exported="false" >
-74-->[androidx.emoji2:emoji2:1.2.0] /Users/isaacwheeler/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-75            <meta-data
-75-->[androidx.emoji2:emoji2:1.2.0] /Users/isaacwheeler/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-76                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-76-->[androidx.emoji2:emoji2:1.2.0] /Users/isaacwheeler/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-77                android:value="androidx.startup" />
-77-->[androidx.emoji2:emoji2:1.2.0] /Users/isaacwheeler/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-78            <meta-data
-78-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/isaacwheeler/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-79                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-79-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/isaacwheeler/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-80                android:value="androidx.startup" />
-80-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/isaacwheeler/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-81        </provider>
-82
-83        <uses-library
-83-->[androidx.window:window:1.0.0] /Users/isaacwheeler/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
-84            android:name="androidx.window.extensions"
-84-->[androidx.window:window:1.0.0] /Users/isaacwheeler/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
-85            android:required="false" />
-85-->[androidx.window:window:1.0.0] /Users/isaacwheeler/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
-86        <uses-library
-86-->[androidx.window:window:1.0.0] /Users/isaacwheeler/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
-87            android:name="androidx.window.sidecar"
-87-->[androidx.window:window:1.0.0] /Users/isaacwheeler/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
-88            android:required="false" />
-88-->[androidx.window:window:1.0.0] /Users/isaacwheeler/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
-89    </application>
-90
-91</manifest>
+31        android:theme="@style/Theme.PNRGatewayClient" >
+31-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:17:9-54
+32        <activity
+32-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:19:9-22:63
+33            android:name="dev.altavision.pnrgatewayclient.SettingsActivity"
+33-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:20:13-45
+34            android:exported="false"
+34-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:21:13-37
+35            android:label="@string/title_activity_settings" />
+35-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:22:13-60
+36        <activity
+36-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:23:9-25:40
+37            android:name="dev.altavision.pnrgatewayclient.SmsSendActivity"
+37-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:24:13-44
+38            android:exported="false" />
+38-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:25:13-37
+39
+40        <receiver
+40-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:27:9-34:20
+41            android:name="dev.altavision.pnrgatewayclient.SMSReceiver"
+41-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:28:13-40
+42            android:exported="true"
+42-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:29:13-36
+43            android:permission="android.permission.BROADCAST_SMS" >
+43-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:30:13-66
+44            <intent-filter android:priority="1000" >
+44-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:31:13-33:29
+44-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:31:28-51
+45                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+45-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:32:17-82
+45-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:32:25-79
+46            </intent-filter>
+47        </receiver>
+48        <receiver
+48-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:35:9-44:20
+49            android:name="dev.altavision.pnrgatewayclient.PDUReceiver"
+49-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:36:13-40
+50            android:exported="true" >
+50-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:37:13-36
+51            <intent-filter>
+51-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:38:13-43:29
+52                <action android:name="android.intent.action.DATA_SMS_RECEIVED" />
+52-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:39:17-82
+52-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:39:25-79
+53
+54                <data android:scheme="sms" />
+54-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:41:17-46
+54-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:41:23-43
+55                <data android:port="*" />
+55-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:41:17-46
+55-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:42:23-39
+56            </intent-filter>
+57        </receiver>
+58
+59        <activity
+59-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:46:9-54:20
+60            android:name="dev.altavision.pnrgatewayclient.MainActivity"
+60-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:47:13-41
+61            android:exported="true" >
+61-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:48:13-36
+62            <intent-filter>
+62-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:49:13-53:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:50:17-69
+63-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:50:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:52:17-77
+65-->/Users/isaacwheeler/AndroidStudioProjects/PNRGatewayClient/app/src/main/AndroidManifest.xml:52:27-74
+66            </intent-filter>
+67        </activity>
+68
+69        <provider
+69-->[androidx.emoji2:emoji2:1.2.0] /Users/isaacwheeler/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+70            android:name="androidx.startup.InitializationProvider"
+70-->[androidx.emoji2:emoji2:1.2.0] /Users/isaacwheeler/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+71            android:authorities="dev.altavision.pnrgatewayclient.androidx-startup"
+71-->[androidx.emoji2:emoji2:1.2.0] /Users/isaacwheeler/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+72            android:exported="false" >
+72-->[androidx.emoji2:emoji2:1.2.0] /Users/isaacwheeler/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+73            <meta-data
+73-->[androidx.emoji2:emoji2:1.2.0] /Users/isaacwheeler/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+74-->[androidx.emoji2:emoji2:1.2.0] /Users/isaacwheeler/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+75                android:value="androidx.startup" />
+75-->[androidx.emoji2:emoji2:1.2.0] /Users/isaacwheeler/.gradle/caches/transforms-3/9f99c19470d8bf18ee15270d078c3173/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+76            <meta-data
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/isaacwheeler/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/isaacwheeler/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+78                android:value="androidx.startup" />
+78-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/isaacwheeler/.gradle/caches/transforms-3/a68586d9ac6fc4872d4884a947d1c1d5/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+79        </provider>
+80
+81        <uses-library
+81-->[androidx.window:window:1.0.0] /Users/isaacwheeler/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+82            android:name="androidx.window.extensions"
+82-->[androidx.window:window:1.0.0] /Users/isaacwheeler/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+83            android:required="false" />
+83-->[androidx.window:window:1.0.0] /Users/isaacwheeler/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+84        <uses-library
+84-->[androidx.window:window:1.0.0] /Users/isaacwheeler/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+85            android:name="androidx.window.sidecar"
+85-->[androidx.window:window:1.0.0] /Users/isaacwheeler/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+86            android:required="false" />
+86-->[androidx.window:window:1.0.0] /Users/isaacwheeler/.gradle/caches/transforms-3/44eb76c63a430958185cfd53aa9f79f1/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+87    </application>
+88
+89</manifest>
